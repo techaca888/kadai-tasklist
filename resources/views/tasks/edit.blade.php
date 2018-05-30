@@ -17,7 +17,7 @@
               {!! Form::label('status', 'ステータス:') !!}
               {!! Form::select('status', ['Complete' => 'Complete', 'Incomplete' => 'Incomplete'], 'Incomplete', ['class' => 'form-control']) !!}
          </div>
-              {!! Form::submit('更新') !!}
+              {!! Form::submit('更新', ['class' => 'btn btn-primary']) !!}
        
        {!! Form::close() !!}
        </div>
